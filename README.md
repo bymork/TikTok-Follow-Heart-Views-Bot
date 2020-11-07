@@ -2,7 +2,9 @@
 # TikTok-Views-Bot
 TikTok Views Bot
 
-![What you will see](https://github.com/NoNameoN-A/TikTok-Views-Bot/blob/main/Capture.PNG)
+![What you will see](https://github.com/NoNameoN-A/TikTok-Views-Bot/blob/main/cmd.PNG)
+
+![TikTok Result](https://github.com/NoNameoN-A/TikTok-Views-Bot/blob/main/TikTok%20Result.PNG)
 
 You must download selenium(You can use pip) and https://chromedriver.chromium.org/downloads
 
