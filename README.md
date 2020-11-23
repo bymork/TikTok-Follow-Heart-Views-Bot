@@ -6,7 +6,7 @@
 
 ## TikTok Views Bot and Followers
 
-![TikTok Result](https://github.com/NoNameoN-A/TikTok-Views-Bot/blob/main/TikTok%20Result.PNG)
+![Bot](https://github.com/NoNameoN-A/TikTok-Views-Follow-Bot/blob/main/Screenshot.png)
 
 # Requirements
 You must download selenium(You can use pip) and https://chromedriver.chromium.org/downloads
