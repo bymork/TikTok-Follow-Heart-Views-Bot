@@ -18,7 +18,7 @@ You must download selenium(You can use pip) and https://chromedriver.chromium.or
 You can close the file...
 
 # Start
-Start the bot with `python TikTok-Views-Bot.py` and insert the Captcha.
+Start the bot with `python TikTok-Views-Follow-Heart-Bot.py` and insert the Captcha.
 
 # Credits
 Author: https://github.com/NoNameoN-A
