@@ -38,7 +38,33 @@ def loop1():
         loop1()
 
 def loop2():
-    pass
+    time.sleep(10)
+    try:
+        driver.find_element_by_xpath("/html/body/div[4]/div[1]/div[3]/div/div[2]/div/button").click()
+    except:
+        print("You didn't solve the captcha yet. Need to refresh to avoid endless loop.")
+        driver.refresh()
+        loop2()
+    try:
+        time.sleep(2)
+        driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/div/div/form/div/input").send_keys(vidUrl)
+        time.sleep(1)
+        driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/div/div/form/div/div/button").click()
+        time.sleep(10)
+        driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/div/div/div/div[1]/div/form/button").click()
+        time.sleep(10)
+        hearts = driver.find_element_by_xpath('//*[@id="c2VuZE9nb2xsb3dlcnNfdGlrdG9r"]/span').text
+        time.sleep(55)
+        print(hearts," Success delivered!")
+        time.sleep(100)
+        driver.refresh()
+        time.sleep(200)
+        loop2()
+    except:
+        print("An error occured. Now will retry again")
+        driver.refresh()
+        time.sleep(355)
+        loop2()
 
 def loop3():
     pass
@@ -83,7 +109,7 @@ print("")
 """
 You can change auto value below
 auto = 1 for auto views OK
-auto = 2 for auto hearts InWork...
+auto = 2 for auto hearts OK
 auto = 3 for auto views + hearts InWork...
 auto = 4 for auto followers OK
 """
