@@ -60,8 +60,7 @@ def loop4():
         sleep(20)
         driver.find_element_by_xpath("//*[@id=\"c2VuZF9mb2xsb3dlcnNfdGlrdG9r\"]/div[1]/div/form/button").click() #AddFollowers
         sleep(wait_time/3)
-        success = driver.find_element_by_xpath("/html/body/div[4]/div[2]/div/div/div/div/span").text() 
-        print(success, " success delivered")
+        print("Success delivered")
         sleep(wait_time/3)
         driver.refresh()
         sleep(wait_time/3)
