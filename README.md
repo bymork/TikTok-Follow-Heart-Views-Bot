@@ -21,6 +21,9 @@ You can close the file...
 # Start
 Start the bot with `python TikTok-Views-Follow-Heart-Bot.py` and insert the Captcha.
 
+## Problems
+### If you have problems you can create an issue on issues section.
 # Credits
-Author: https://github.com/NoNameoN-A
-WebSite: nonameon.altervista.org
+### If you like my repo please release a star on the top (:
+- Repo: https://github.com/NoNameoN-A/Affiliate-Telegram-bot-for-shops
+- Developer's WebSite: https://nonameon.altervista.org
