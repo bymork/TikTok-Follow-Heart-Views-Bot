@@ -25,5 +25,5 @@ Start the bot with `python TikTok-Views-Follow-Heart-Bot.py` and insert the Capt
 ### If you have problems you can create an issue on issues section.
 # Credits
 ### If you like my repo please release a star on the top (:
-- Repo: https://github.com/NoNameoN-A/Affiliate-Telegram-bot-for-shops
+- Repo: https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot
 - Developer's WebSite: https://nonameon.altervista.org
