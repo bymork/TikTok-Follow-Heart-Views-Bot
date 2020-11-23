@@ -4,9 +4,7 @@
 <a href="https://www.buymeacoffee.com/NoNameoNA" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-black.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 150px !important;" ></a>
 
 
-## TikTok Views Bot
-
-![What you will see](https://github.com/NoNameoN-A/TikTok-Views-Bot/blob/main/cmd.PNG)
+## TikTok Views Bot and Followers
 
 ![TikTok Result](https://github.com/NoNameoN-A/TikTok-Views-Bot/blob/main/TikTok%20Result.PNG)
 
