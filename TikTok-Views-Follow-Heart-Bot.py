@@ -12,7 +12,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome('/home/nonameon/Documents/chromedriver',chrome_options=chrome_options)
 
 def loop1():
-    time.sleep(10)
+    sleep(10)
     try:
         driver.find_element_by_xpath("/html/body/div[4]/div[1]/div[3]/div/div[4]/div/button").click()
     except:
@@ -20,17 +20,17 @@ def loop1():
         driver.refresh()
         loop1()
     try:
-        time.sleep(2)
+        sleep(2)
         driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/input").send_keys(vidUrl)
-        time.sleep(1)
+        sleep(1)
         driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/div/button").click()
-        time.sleep(2)
+        sleep(2)
         driver.find_element_by_xpath("//*[@id=\"c2VuZC9mb2xsb3dlcnNfdGlrdG9V\"]/div[1]/div/form/button").click()
         driver.refresh()
         i += 1
         total = i * 1000
         print("Views success delivered! Total", total,"views")
-        time.sleep(55)
+        sleep(55)
         loop1()
     except:
         print("An error occured. Now will retry again")
@@ -38,7 +38,7 @@ def loop1():
         loop1()
 
 def loop2():
-    time.sleep(10)
+    sleep(10)
     try:
         driver.find_element_by_xpath("/html/body/div[4]/div[1]/div[3]/div/div[2]/div/button").click()
     except:
@@ -46,24 +46,24 @@ def loop2():
         driver.refresh()
         loop2()
     try:
-        time.sleep(2)
+        sleep(2)
         driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/div/div/form/div/input").send_keys(vidUrl)
-        time.sleep(1)
+        sleep(1)
         driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/div/div/form/div/div/button").click()
-        time.sleep(10)
+        sleep(10)
         driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/div/div/div/div[1]/div/form/button").click()
-        time.sleep(10)
+        sleep(10)
         hearts = driver.find_element_by_xpath('//*[@id="c2VuZE9nb2xsb3dlcnNfdGlrdG9r"]/span').text
-        time.sleep(55)
+        sleep(55)
         print(hearts," Success delivered!")
-        time.sleep(100)
+        sleep(100)
         driver.refresh()
-        time.sleep(200)
+        sleep(200)
         loop2()
     except:
         print("An error occured. Now will retry again")
         driver.refresh()
-        time.sleep(355)
+        sleep(355)
         loop2()
 
 def loop3():
