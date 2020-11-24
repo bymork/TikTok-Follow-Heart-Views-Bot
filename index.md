@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# TikTok-Views-Bot
+![View Count](https://counter.gofiber.io/badge/NoNameoN/TikTok-Follow-Heart-Views-Bot/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<a href="https://www.buymeacoffee.com/NoNameoNA" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-black.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 150px !important;" ></a>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## TikTok Views Bot and Followers
 
-```markdown
-Syntax highlighted code block
+![Bot](https://github.com/NoNameoN-A/TikTok-Views-Follow-Bot/blob/main/Screenshot.png)
 
-# Header 1
-## Header 2
-### Header 3
+# Requirements
+You must download selenium(You can use pip) and https://chromedriver.chromium.org/downloads
 
-- Bulleted
-- List
+# Usage
+1) Open TikTok-Views-Bot.py
+2) Go to 53 line
+3) Change YOUR_URL to your Tik Tok video URL. This URL used to get views or hearts or both
+You can close the file...
 
-1. Numbered
-2. List
+# Start
+Start the bot with `python TikTok-Views-Follow-Heart-Bot.py` and insert the Captcha.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Problems
+### If you have problems you can create an issue on issues section.
+# Credits
+### If you like my repo please release a star on the top (:
+- Repo: https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot
+- Developer's WebSite: https://nonameon.altervista.org
