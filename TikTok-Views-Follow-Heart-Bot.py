@@ -11,6 +11,8 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome('/home/nonameon/Documents/chromedriver',chrome_options=chrome_options)
 
+i = 0
+
 def loop1():
     global i
     sleep(10)
