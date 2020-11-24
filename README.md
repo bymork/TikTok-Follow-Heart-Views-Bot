@@ -2,6 +2,9 @@
 # TikTok-Views-Bot
 ![View Count](https://counter.gofiber.io/badge/NoNameoN/TikTok-Follow-Heart-Views-Bot/)
 
+### Problems
+If you have problems you can create an issue on [issues section](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/issues).
+
 <a href="https://www.buymeacoffee.com/NoNameoNA" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-black.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 150px !important;" ></a>
 
 
@@ -21,8 +24,6 @@ You can close the file...
 # Start
 Start the bot with `python TikTok-Views-Follow-Heart-Bot.py` and insert the Captcha.
 
-## Problems
-### If you have problems you can create an issue on issues section.
 # Credits
 ### If you like my repo please release a star on the top (:
 - Repo: https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot
