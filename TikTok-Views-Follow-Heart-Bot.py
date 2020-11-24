@@ -12,6 +12,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome('/home/nonameon/Documents/chromedriver',chrome_options=chrome_options)
 
 def loop1():
+    global i
     sleep(10)
     try:
         driver.find_element_by_xpath("/html/body/div[4]/div[1]/div[3]/div/div[4]/div/button").click()
@@ -113,14 +114,14 @@ auto = 2 for auto hearts OK
 auto = 3 for auto views + hearts InWork...
 auto = 4 for auto followers OK
 """
-bot = 4 #Change this
+bot = 1 #Change this
 
 driver.get("https://vipto.de/")
 
 if bot == 1:
-    pass
+    loop1()
 elif bot == 2:
-    pass
+    loop2()
 elif bot == 3:
     pass
 else:
