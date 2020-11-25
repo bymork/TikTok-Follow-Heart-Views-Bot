@@ -9,7 +9,7 @@ chrome_options = webdriver.ChromeOptions()
 #chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome('/home/nonameon/Documents/chromedriver',chrome_options=chrome_options)
+driver = webdriver.Chrome('/your/path/for/chromedriver',chrome_options=chrome_options) #If you use Windows you must add .exe
 
 i = 0
 
