@@ -34,7 +34,11 @@ Start the bot with `python TikTok-Views-Follow-Heart-Bot.py` and insert the Capt
 
 # Donation
 PayPal: https://www.paypal.me/nonameon
+
 BTC: 3QUVoehMFEnaAtRPHC9aRG85CdaNJx43Yd
+
 ALGO: 6PYP5RWP547FYH6W2FZMI4A5Q6VWSXI3RE2BIEU5LWKFRVG3VX75YTVNEI
+
 ETH: 0x07EBAb381b30f164Bb84c94919a8BC9BfF3b5Ec3
+
 LTC: MViaTiPCgCd4ff8uvXfpXJsNY4q8pRrRX9
